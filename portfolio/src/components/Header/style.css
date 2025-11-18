@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    background-color: #F3DDE1;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #E8D7D3;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}    
+
+.name{
+    font-family: Bradley Hand ITC;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0
+}
+.job{
+    font-size:18px;
+    margin: 0
+}
+.header_titles{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding: 0;  /* ★ ajouté */
+    margin: 0;   /* ★ ajouté */
+}
+.header_nav{
+    display: flex;
+    flex-direction: row;
+   
+}
+.navItem a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navItem a:hover{
+    color:#B45D6A;
+    font-weight: bold;
+    
+}
+

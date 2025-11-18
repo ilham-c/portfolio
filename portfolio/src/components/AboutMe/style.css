@@ -1,0 +1,23 @@
+#about_section{
+    display: flex;
+    justify-content: center;
+    padding: 30px 220px 30px 220px;
+}
+.about_card {
+  max-width: 600px;
+  padding: 30px;
+  border: 4px double #333; 
+  border-radius: 15px;
+  background-color: #fafafa;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.about_title {
+  font-size: 28px;
+  margin-bottom: 20px;
+
+}
+.about_text {
+  line-height: 1.6;
+}
+
