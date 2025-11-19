@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header'
-import Presentation from './components/AboutMe'
 import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
   <>
   <Header/>
   <AboutMe/>
+  <Footer/>
   </>
   )
 }
