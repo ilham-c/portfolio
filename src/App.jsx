@@ -2,15 +2,23 @@ import './App.css'
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
+import Card from './components/Card'
+import Projects from './components/Projects'
 
 
 function App() {
   return (
   <>
-  <Header/>
-  <AboutMe/>
-  <Footer/>
-  </>
+    <Header/>
+    <main>
+    <AboutMe/>
+    <Projects/>
+    <Contact/>
+    </main>
+    <Footer/>
+   </>
+ 
   )
 }
 

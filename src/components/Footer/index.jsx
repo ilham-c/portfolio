@@ -2,7 +2,9 @@ import "./style.css";
 
 function Footer() {
   return (
-    <p className="footer_title">© 2025 CHAIBA Elham, Portfolio,tous droits réservés.</p>
+    <footer className="footer_title">
+    <p>© 2025 CHAIBA Elham, Portfolio,tous droits réservés.</p>
+    </footer>
   );
 }
 export default Footer;

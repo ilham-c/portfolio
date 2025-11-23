@@ -1,0 +1,19 @@
+.contact_container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact_container input,
+.contact_container textarea {
+  width: 98%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact_container button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
