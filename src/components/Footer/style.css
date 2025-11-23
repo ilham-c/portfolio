@@ -1,6 +1,22 @@
-.footer_title{
+.footer_container{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F3DDE1;
+}
+.footer_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+
+}
+.footer_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.icon{
+    width: 28px;
+    height: 28px;
 }

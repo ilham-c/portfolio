@@ -40,30 +40,29 @@ const Projects = [
 },
 {
     title:"Premier pas sur le language Javascript",
-    description:"efedfde",
-    image:"/asset/printit.webp",
-    tools:["Javascript"],
-
+    description:"Réalisez le carrousel du site Internet d’une imprimerie avec JavaScript.",
+    image:"/assets/printit.webp",
+    tools:["HTML","CSS","Javascript","Github"],
 },
 {
     title:"Améliorez l'interface d'un site mobile avec des animations CSS",
-    description:"sdqs",
-    image:"/asset/qwenta.webp",
-    tools:["jhk"],
+    description:"Intégration d'une maquette en mobile-first, utilisation de Sass, implémentation d'animations CSS.",
+    image:"/assets/ohmyfood.webp",
+    tools:["HTML","CSS","Figma","Sass","Github"],
 
 },
 {
     title:"Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-    description:"dqsdqd",
-    image:"/asset/qwenta.webp",
-    tools:["jhk"],
+    description:"Création de la page d'accueil d'une agence de voyage en utilisant HTML et CSS, la mission principale était d'intégrer l'interface responsive de leur site Booki.",
+    image:"/assets/bookii.webp",
+    tools:["HTML","CSS","Figma"],
 
 },
 {
     title:"Premier pas sur le language HTML",
-    description:"sdqsd",
-    image:"/asset/qwenta.webp",
-    tools:["jhk"],
+    description:"Ce projet était une introduction aux fondamentaux du langage HTML. Nous avons travailler sur la mise à jour de la page web de l'association Riding cities, conformément aux maquettes fournies.",
+    image:"/assets/ridingcities.webp",
+    tools:["HTML","CSS","Figma","VS Code"],
 
 },
 ]

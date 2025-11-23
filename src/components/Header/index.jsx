@@ -11,7 +11,7 @@ function Header() {
         <ul className="header_titles">
           <li className="navItem"><a href="#home">Accueil</a></li>
           <li className="navItem"><a href="#AboutMe">A propos </a></li>
-          <li className="navItem"><a href="#home">Projets </a></li>
+          <li className="navItem"><a href="#Projects">Projets </a></li>
           <li className="navItem"><a href="#Contact">Contact </a></li>
         </ul>
       </nav>
