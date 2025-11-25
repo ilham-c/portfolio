@@ -43,4 +43,43 @@ header{
     font-weight: bold;
     
 }
+.burger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* --- VERSION MOBILE --- */
+@media (max-width: 768px) {
+
+  .burger {
+    display: block;
+  }
+
+  .header_titles {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  header.open .header_titles {
+    display: flex;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .header_nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
 

@@ -16,6 +16,10 @@ function AboutMe(){
          et agréables à utiliser. Curieuse et motivée, je me forme en continu pour enrichir mes compétences et rester à jour sur 
          les technologies du web.
         </p>
+        <p className='about_quote'><em>"Persévérance, secret de tous les triomphes"</em>
+          <br />
+          <em>Victor Hugo</em>
+        </p>
         </div>
       </div>
    </section>
