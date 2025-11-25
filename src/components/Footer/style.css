@@ -1,21 +1,18 @@
 .footer_container{
+    width: 100%;
     display: flex;
+    background-color: #F3DDE1;
     justify-content: center;
     align-items: center;
-    background-color: #F3DDE1;
+    gap: 20px;
+    padding: 20px 0;
+  
 }
 .footer_title{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between
+    align-items: center;
+    
+}
 
-}
-.footer_icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   
-}
 .icon{
     width: 28px;
     height: 28px;

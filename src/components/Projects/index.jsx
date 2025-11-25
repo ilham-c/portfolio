@@ -4,11 +4,13 @@ import "./style.css";
 
 function Projects() {
   return (
+    <section id="Projects">
     <div className="projects_grid">
       {projects.map((project, index) => (
         <Card key={index} project={project} />
       ))}
     </div>
+    </section>
   );
 }
 

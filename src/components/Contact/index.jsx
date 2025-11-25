@@ -36,6 +36,7 @@ function Contact() {
   };
 
   return (
+    <section id="Contact">
     <div className="contact_container">
       <h2>Vous pouvez me contactez via ce formulaire</h2>
       <form onSubmit={handleSubmit}>
@@ -65,6 +66,7 @@ function Contact() {
         <button type="submit">Envoyer</button>
       </form>
     </div>
+    </section>
   );
 }
 

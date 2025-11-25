@@ -1,17 +1,26 @@
 #about_section{
-    display: flex;
-    justify-content: center;
-    padding: 30px 220px 30px 220px;
-}
-.about_card {
-  max-width: 600px;
-  padding: 30px;
-  border: 4px double #333; 
-  border-radius: 15px;
+  width: 100%;
   background-color: #fafafa;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
 }
+.about_container{
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+}
+.about_text_block{
+  width: 60%;
+}
+.about_img {
+  width: 100%;
+  max-width: 280px;
+}
+
 .about_title {
   font-size: 28px;
   margin-bottom: 20px;
