@@ -12,6 +12,7 @@ function Header() {
           <li className="navItem"><a href="#home">Accueil</a></li>
           <li className="navItem"><a href="#AboutMe">A propos </a></li>
           <li className="navItem"><a href="#Projects">Projets </a></li>
+          <li className="navItem"><a href="#Skills">Compétences</a></li>
           <li className="navItem"><a href="#Contact">Contact </a></li>
         </ul>
       </nav>

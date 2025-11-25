@@ -4,7 +4,6 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   display: flex;
   justify-content: center;
-  padding: 40px 20px;
 }
 .about_container{
   max-width: 1100px;
@@ -27,6 +26,10 @@
 
 }
 .about_text {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
   line-height: 1.6;
+  font-size: 19px;
 }
+
 

@@ -24,8 +24,8 @@ header{
     display: flex;
     list-style: none;
     gap: 25px;
-    padding: 0;  /* ★ ajouté */
-    margin: 0;   /* ★ ajouté */
+    padding: 0;
+    margin: 0;
 }
 .header_nav{
     display: flex;
