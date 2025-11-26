@@ -43,6 +43,7 @@ function Contact() {
         <label htmlFor="name" className="visually_hidden">Nom</label>
         <input
           type="text"
+          id="text"
           name="name"
           value={formData.name}
           onChange={handleChange}
@@ -52,6 +53,7 @@ function Contact() {
         <label htmlFor="email" className="visually_hidden">Email</label>
         <input
           type="email"
+          id="email"
           name="email"
           value={formData.email}
           onChange={handleChange}
@@ -60,6 +62,7 @@ function Contact() {
         />
         <label htmlFor="message" className="visually_hidden">Message</label>
         <textarea
+          id="message"
           name="message"
           value={formData.message}
           onChange={handleChange}
