@@ -4,6 +4,7 @@
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: transform .3s ease, box-shadow .3s ease;
+  position: relative;
 
 }
 
@@ -45,4 +46,15 @@
   padding: 4px 8px;
   border-radius: 6px;
   font-size: 0.8rem;
+}
+.card_icon_container {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+
+.card_icon{
+  width: 28px;
+  height: 28px;
+  
 }

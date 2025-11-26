@@ -15,6 +15,19 @@ function Card({ project }) {
           ))}
         </ul>
       </div>
+      <div className='card_icon_container' >
+       <a 
+    href={project.github} 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <img 
+      src="/assets/github.svg" 
+      alt="Lien vers le dépôt GitHub du projet"
+      className='card_icon' 
+    />
+  </a>
+      </div>
     </div>
   );
 }

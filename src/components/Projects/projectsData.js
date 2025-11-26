@@ -10,18 +10,21 @@ const Projects = [
     description:"Intégrer le front-end avec le back-end via des appels API.",
     image:"/assets/argentbank.webp",
     tools :["React","Javascript","Redux","HTML","CSS","MongoDb","NodeJS","API REST","Swagger","Postmann","GitHub"],
+    github: "https://github.com/ilham-c/ArgentBank_Frontend.git"
 },
 {
     title:"Débuggez le site d'une agence d'événementiel",
     description:"Identifier et comprendre les problèmes et bugs signalés à l'aide des Chrome DevTools.",
     image:"/assets/724events.webp",
     tools:["React","React Developper Tools","Javascript","Nodejs","Yarn","GitHub"],
+    github: "https://github.com/ilham-c/projet9_debugger_une_application_React.JS.git"
 },
 {
     title:"Optimisez le référencement d'un site de photographe ",
     description:"Identifier les problèmes de chargement et de référencement, pour ensuite améliorer les performances et l'accessibilité du site d'une photographe puis de réaliser un rapport d'optimisation.",
     image:"/assets/ninacarducci.webp",
     tools:["HTML","CSS","Lighthouse","Wave","Google Rich Snippet","Github"],
+    github: "https://github.com/ilham-c/projet8_nina_carducci.git"
 
 },
 {
@@ -29,6 +32,7 @@ const Projects = [
     description:"Implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
     image:"/assets/kasa.webp",
     tools:["React","React rooter","Javascript","HTML","CSS","Github"],
+    github: "https://github.com/ilham-c/projet7_kasa.git"
 
 },
 {
@@ -36,6 +40,7 @@ const Projects = [
     description:"Créez un site dynamique avec JavaScript, communiquant avec une API pour une architecte.",
     image:"/assets/sophiebluel.webp",
     tools:["Javascript","HTML","CSS","Swagger","Github"],
+    github: "https://github.com/ilham-c/p6_sophie_bluel.git"
 
 },
 {
@@ -43,12 +48,14 @@ const Projects = [
     description:"Réalisez le carrousel du site Internet d’une imprimerie avec JavaScript.",
     image:"/assets/printit.webp",
     tools:["HTML","CSS","Javascript","Github"],
+    github: "https://github.com/ilham-c/projet5.git"
 },
 {
     title:"Améliorez l'interface d'un site mobile avec des animations CSS",
     description:"Intégration d'une maquette en mobile-first, utilisation de Sass, implémentation d'animations CSS.",
     image:"/assets/ohmyfood.webp",
     tools:["HTML","CSS","Figma","Sass","Github"],
+    github: "https://github.com/ilham-c/ohmyfood.git"
 
 },
 {

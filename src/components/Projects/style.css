@@ -1,3 +1,8 @@
+.projects_title{
+  text-align: center;
+  font-size: 28px;
+}
+
 .projects_grid {
   box-sizing: border-box;
   display: grid;
