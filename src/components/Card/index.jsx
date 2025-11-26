@@ -4,8 +4,8 @@ function Card({ project }) {
   return (
     <div className='card_container'>
       <div className='card_content'>
-        <img src={project.image} alt={project.title} />
-        <h2 className='card_title'>{project.alt}</h2>
+        <img src={project.image} alt={project.alt} />
+        <h2 className='card_title'>{project.title}</h2>
         <p className='card_description'>{project.description}</p>
       </div>
       <div className='card_tools'>
