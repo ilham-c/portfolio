@@ -1,18 +1,37 @@
-# React + Vite
+# Portfolio d’Elham CHAIBA – Développeuse Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Ce portfolio présente mes compétences et mes projets en tant que développeuse front-end. Il a été réalisé avec React et permet de découvrir :  
+- Ma présentation et mon parcours  
+- Mes projets avec descriptions et technologies utilisées  
+- Mes compétences techniques  
+- Un formulaire de contact fonctionnel via EmailJS  
 
-Currently, two official plugins are available:
+Le site est responsive et accessible.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## React Compiler
+Pour lancer le projet localement :  
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+```bash
+git clone https://github.com/ilham-c/portfolio.git
+cd portfolio
+npm install
+npm run dev
 
-Note: This will impact Vite dev & build performances.
+Le site sera accessible sur  http://localhost:5173/
 
-## Expanding the ESLint configuration
+## Utilisaton
+- Naviguer entre les sections "A propos", "Projets", "Compétences" et "Contact".
+- Cliquer sur les icônes GitHub pour accéder aux dépôts des projets.
+- Remplir le formulaire de contact pour m'envoyer un message (fontionne via EmailJS).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies utilisées 
+- REACT
+- JAVASCRIPT
+- HTML et CSS
+- EmailJS
+- GitHub
+
+
+
