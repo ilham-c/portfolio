@@ -43,7 +43,7 @@ function Contact() {
         <label htmlFor="name" className="visually_hidden">Nom</label>
         <input
           type="text"
-          id="text"
+          id="name"
           name="name"
           value={formData.name}
           onChange={handleChange}
