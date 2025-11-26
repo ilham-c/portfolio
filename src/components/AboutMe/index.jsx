@@ -4,7 +4,7 @@ function AboutMe(){
   return (
     <section id='about_section'>
       <div className='about_container'>
-        <img src="\assets\becher2.webp" alt="C'est une fiole rose qui dégage des fumées HTML, CSS, elle symbolise mon parcours de laborantine vers le développement web"
+        <img src="\assets\becher2.webp" alt="C'est une fiole qui dégage des fumées HTML, CSS"
         className='about_img' />
         <div className='about_text_block'>
         <h2 className='about_title'>A propos de moi</h2>

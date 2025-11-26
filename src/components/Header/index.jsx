@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className={isOpen ? "open" : ""}>
       <div className="header_title">
-        <p className="name">CHAIBA Elham,</p>
+        <h1 className="name">CHAIBA Elham,</h1>
         <p className="job">Développeuse web</p>
       </div>  
 
@@ -22,7 +22,7 @@ function Header() {
 
         <nav className="header_nav">
         <ul className="header_titles">
-          <li className="navItem"><a href="#AboutMe">A propos </a></li>
+          <li className="navItem"><a href="#about_section">A propos</a></li>
           <li className="navItem"><a href="#Projects">Projets </a></li>
           <li className="navItem"><a href="#Skills">Compétences</a></li>
           <li className="navItem"><a href="#Contact">Contact </a></li>

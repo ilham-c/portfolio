@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer_container">
-      <p className="footer_title">© 2025 CHAIBA Elham, Portfolio,tous droits réservés.</p>
+      <p className="footer_title">© 2025 CHAIBA Elham, Portfolio, tous droits réservés.</p>
       <div className="footer_icons">
         <a
           href="https://github.com/ilham-c"

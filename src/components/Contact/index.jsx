@@ -40,6 +40,7 @@ function Contact() {
     <div className="contact_container">
       <h2>Vous pouvez me contactez via ce formulaire</h2>
       <form onSubmit={handleSubmit}>
+        <label htmlFor="name" className="visually_hidden">Nom</label>
         <input
           type="text"
           name="name"
@@ -48,6 +49,7 @@ function Contact() {
           placeholder="Nom"
           required
         />
+        <label htmlFor="email" className="visually_hidden">Email</label>
         <input
           type="email"
           name="email"
@@ -56,6 +58,7 @@ function Contact() {
           placeholder="Email"
           required
         />
+        <label htmlFor="message" className="visually_hidden">Message</label>
         <textarea
           name="message"
           value={formData.message}
