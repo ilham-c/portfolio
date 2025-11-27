@@ -15,6 +15,7 @@ function Card({ project }) {
           ))}
         </ul>
       </div>
+      {project.github &&(
       <div className='card_icon_container' >
        <a 
     href={project.github} 
@@ -28,6 +29,7 @@ function Card({ project }) {
     />
   </a>
       </div>
+)}
     </div>
   );
 }
