@@ -24,29 +24,35 @@ const Projects = [
 },
 {
     title:"Optimisez le référencement d'un site de photographe ",
+    featured: true,
     description:"Identifier les problèmes de chargement et de référencement, pour ensuite améliorer les performances et l'accessibilité du site d'une photographe puis de réaliser un rapport d'optimisation.",
     image:"/assets/ninacarducci.webp",
     alt:"Photo d'un couple lors de leur cérémonie de mariage",
     tools:["HTML","CSS","Lighthouse","Wave","Google Rich Snippet","Github"],
-    github: "https://github.com/ilham-c/projet8_nina_carducci.git"
+    github: "https://github.com/ilham-c/projet8_nina_carducci.git",
+    link: "https://projet8-nina-carducci.vercel.app"
 
 },
 {
     title:"Créez une application web de location immobilière avec React",
+    featured: true,
     description:"Implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
     image:"/assets/kasa.webp",
     alt:"Appartement joliement décoré",
     tools:["React","React rooter","Javascript","HTML","CSS","Github"],
-    github: "https://github.com/ilham-c/projet7_kasa.git"
+    github: "https://github.com/ilham-c/projet7_kasa.git",
+    link:"https://projet7-kasa-sable.vercel.app"
 
 },
 {
     title:"Créez une page web dynamique avec Javascript",
+    featured: true,
     description:"Créez un site dynamique avec JavaScript, communiquant avec une API pour une architecte.",
     image:"/assets/sophiebluel.webp",
     alt:"Photo d'une jeune femme au milieu de la nature",
     tools:["Javascript","HTML","CSS","Swagger","Github"],
-    github: "https://github.com/ilham-c/p6_sophie_bluel.git"
+    github: "https://github.com/ilham-c/p6_sophie_bluel.git",
+    link: "https://p6-sophie-bluel-self.vercel.app"
 
 },
 {
@@ -55,7 +61,7 @@ const Projects = [
     image:"/assets/printit.webp",
     alt:"Homme tenant un journal, on y voit un logo Printit",
     tools:["HTML","CSS","Javascript","Github"],
-    github: "https://github.com/ilham-c/projet5.git"
+    github: "https://github.com/ilham-c/projet5.git",
 },
 {
     title:"Améliorez l'interface d'un site mobile avec des animations CSS",
@@ -63,7 +69,7 @@ const Projects = [
     image:"/assets/ohmyfood.webp",
     alt:"Menu d'un restaurant",
     tools:["HTML","CSS","Figma","Sass","Github"],
-    github: "https://github.com/ilham-c/ohmyfood.git"
+    github: "https://github.com/ilham-c/ohmyfood.git",
 
 },
 {

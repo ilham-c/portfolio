@@ -4,7 +4,9 @@ function Card({ project }) {
   return (
     <div className='card_container'>
       <div className='card_content'>
-        <img src={project.image} alt={project.alt} />
+       <a href={project.link} target="_blank" rel="noopener noreferrer">
+  <img src={project.image} alt={project.alt} />
+</a>
         <h2 className='card_title'>{project.title}</h2>
         <p className='card_description'>{project.description}</p>
       </div>

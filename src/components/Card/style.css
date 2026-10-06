@@ -1,5 +1,6 @@
 .card_container {
   background: #ffffff;
+  border: 1px solid #f0e0e3;
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -9,8 +10,9 @@
 }
 
 .card_container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(179,107,114,0.2);
+  border-color: #F3DDE1;
 }
 
 .card_content img {
@@ -42,7 +44,8 @@
 }
 
 .card_tools li {
-  background: #f0f0f0;
+  background: #F3DDE1;
+  color: #2a2a2a;
   padding: 4px 8px;
   border-radius: 6px;
   font-size: 0.8rem;

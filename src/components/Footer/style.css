@@ -18,6 +18,12 @@
     height: 28px;
 }
 
+.footer_cgv {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
 @media (max-width: 768px){
 .footer_container{
     display: flex;

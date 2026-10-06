@@ -1,6 +1,12 @@
-.projects_title{
+#Projects {
+  background-color: #f5f0ea;
+  padding: 60px 0;
+}
+
+.projects_title {
   text-align: center;
   font-size: 28px;
+  margin-bottom: 40px;
 }
 
 .projects_grid {
@@ -12,10 +18,10 @@
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
- 
 }
-@media (max-width: 768px){
-  .projects_grid{
+
+@media (max-width: 768px) {
+  .projects_grid {
     display: flex;
     flex-direction: column;
   }

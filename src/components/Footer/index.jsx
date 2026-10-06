@@ -12,7 +12,8 @@ function Footer() {
           rel="noopener noreferrer"
           aria-label="Visiter mon profil Github"
         >
-          <img src="/assets/github.svg" alt="" className="icon"/>
+          <a href="/cgv.pdf" target="_blank">CGV</a>
+          <img src="/assets/snap.svg" alt="" className="icon"/>
         </a>
          <a
           href="https://www.linkedin.com/in/elham-chaiba-552275368/"
@@ -20,7 +21,7 @@ function Footer() {
           rel="noopener noreferrer"
           aria-label="Visiter mon profil Linkedin"
         >
-          <img src="/assets/linkedin.svg" alt="" className="icon"/>
+          <img src="/assets/insta.svg" alt="" className="icon"/>
         </a>
       </div>
       </div>
