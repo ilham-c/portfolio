@@ -23,7 +23,7 @@ const Projects = [
     github: "https://github.com/ilham-c/projet9_debugger_une_application_React.JS.git"
 },
 {
-    title:"Optimisez le référencement d'un site de photographe ",
+    title:"Site d'une photographe : plus rapide et mieux référencé",
     featured: true,
     description:"Identifier les problèmes de chargement et de référencement, pour ensuite améliorer les performances et l'accessibilité du site d'une photographe puis de réaliser un rapport d'optimisation.",
     image:"/assets/ninacarducci.webp",
@@ -34,7 +34,7 @@ const Projects = [
 
 },
 {
-    title:"Créez une application web de location immobilière avec React",
+    title:"Plateforme de location de logements entre particuliers",
     featured: true,
     description:"Implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
     image:"/assets/kasa.webp",
@@ -45,7 +45,7 @@ const Projects = [
 
 },
 {
-    title:"Créez une page web dynamique avec Javascript",
+    title:"Site vitrine d'une architecte avec galerie de projets",
     featured: true,
     description:"Créez un site dynamique avec JavaScript, communiquant avec une API pour une architecte.",
     image:"/assets/sophiebluel.webp",
